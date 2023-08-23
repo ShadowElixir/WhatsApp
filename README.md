@@ -4,7 +4,7 @@ WhatsApp in [Nativefier](https://github.com/nativefier/nativefier) with [Custom 
 
 # Build
 Download and install [NodeJS](https://nodejs.org) and [Nativefier](https://github.com/nativefier/nativefier).
-Run this command:
+Run this command: (for mac, remove --tray start-in-tray)
 ```
 nativefier "web.whatsapp.com" -n WhatsApp --single-instance --tray start-in-tray --inject "(For custom styles, only use .js files, optional)"
 ```
